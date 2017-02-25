@@ -84,7 +84,7 @@ namespace FluentBusinessRule.Lib
             // Root = SumA + IsNull(CalculatedB, 0)
             BusinessRules.AddRule(BusinessRuleExtensions.NewBusinessRule(RootProperty)
                 .DependsOn(SumAProperty)
-                .DependsOn(CalculatedBProperty, false)
+                .DependsOn(CalculatedBProperty, IsRequired: false)
                 .SumDependants());
 
             // SumA = ValueA1 + ValueA2
@@ -97,8 +97,8 @@ namespace FluentBusinessRule.Lib
             // CalculatedB is optional
             BusinessRules.AddRule(
                 BusinessRuleExtensions.NewBusinessRule(CalculatedBProperty)
-                .DependsOn(ValueBProperty, false)
-                .DependsOn(PercentageBProperty, false)
+                .DependsOn(ValueBProperty, IsRequired: false)
+                .DependsOn(PercentageBProperty, IsRequired: false)
                 .Calculate((v1, v2) =>
                 {
 
