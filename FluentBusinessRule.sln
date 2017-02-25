@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBusinessRule.Lib", "FluentBusinessRule.Lib\FluentBusinessRule.Lib.csproj", "{6646A613-BC4A-4020-8904-661D339BB69E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBusinessRule.Tests", "FluentBusinessRule.Tests\FluentBusinessRule.Tests.csproj", "{B73BEC2D-FEDC-4848-B7CA-23A8247DF91D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6646A613-BC4A-4020-8904-661D339BB69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6646A613-BC4A-4020-8904-661D339BB69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6646A613-BC4A-4020-8904-661D339BB69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6646A613-BC4A-4020-8904-661D339BB69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73BEC2D-FEDC-4848-B7CA-23A8247DF91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73BEC2D-FEDC-4848-B7CA-23A8247DF91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73BEC2D-FEDC-4848-B7CA-23A8247DF91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73BEC2D-FEDC-4848-B7CA-23A8247DF91D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
